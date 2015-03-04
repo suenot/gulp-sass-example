@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	$ = require('gulp-load-plugins')();
 
 gulp.task('watch', function () {
-	gulp.watch(['./sass/*.sass'], ['default']);
+	gulp.watch(['./sass/**/*.sass'], ['default']);
 });
 
 gulp.task('default', function () {
@@ -12,7 +12,7 @@ gulp.task('default', function () {
 			indentedSyntax: true,
 			errLogToConsole: true
 		}))
-		.pipe($.autoprefixer('last 3 version'))
+		// .pipe($.autoprefixer('last 3 version'))
 		.pipe($.sourcemaps.write('.'))
 		.pipe(gulp.dest('css'));
 });
