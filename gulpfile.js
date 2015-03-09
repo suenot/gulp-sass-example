@@ -6,7 +6,8 @@ gulp.task('sass', function () {
 		.pipe($.sourcemaps.init())
 		.pipe($.sass({
 			indentedSyntax: true,
-			errLogToConsole: true
+			errLogToConsole: true,
+			outputStyle: 'compressed'
 		}))
 		// .pipe($.autoprefixer('last 3 version'))
 		.pipe($.sourcemaps.write('.'))
