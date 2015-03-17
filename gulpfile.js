@@ -2,8 +2,8 @@ var gulp = require('gulp'),
 	$ = require('gulp-load-plugins')();
 
 gulp.task('sass', function () {
-	return gulp.src(['./sass/**/*.sass'])
-		.pipe($.watch('./sass/**/*.sass'))
+	return gulp.src('sass/**/*.sass')
+		.pipe($.watch('sass/**/*.sass'))
 		.pipe($.sourcemaps.init())
 		.pipe($.sass({
 			indentedSyntax: true,
