@@ -1,1 +1,1 @@
-{"version":3,"sources":["screen.sass"],"names":[],"mappings":"AAAA,AACE,AAAY","file":"screen.css","sourcesContent":["body\r\n  background: #0ff"],"sourceRoot":"/source/"}
+{"version":3,"sources":["screen.sass"],"names":[],"mappings":"AAAA,KACE,WAAY","file":"screen.css","sourcesContent":["body\n  background: blue"],"sourceRoot":"/source/"}
