@@ -1,1 +1,1 @@
-{"version":3,"sources":["mobile.sass"],"names":[],"mappings":"AAAA,KACI,WAAY","file":"mobile.css","sourcesContent":[".box\n    background: orange"],"sourceRoot":"/source/"}
+{"version":3,"sources":["mobile/_global.sass","mobile.sass"],"names":[],"mappings":"AAAA,eACC,WAAY,OCAb,KACI,WAAY","file":"mobile.css","sourcesContent":[".mobile-global\n\tbackground: white","@import mobile/global\n.box\n    background: yellow"],"sourceRoot":"/source/"}
